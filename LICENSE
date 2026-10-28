@@ -1,0 +1,36 @@
+Original code and original narrative writing: MIT License
+
+Copyright (c) 2026 Violetta Kalinicheva
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Data-derived complaint tables and figures, including notebook displays:
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+Full terms: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+This package adapts TSA complaint-count data standardized by the Data Liberation
+Project and volunteers: https://github.com/data-liberation-project/tsa-complaint-counts
+Frozen source revision: e9f8b5e89b4774eb97b93165ee96b4bc986d4319.
+Changes: aggregation, reliability summaries, percentage-point airport profiles,
+and original chart designs. No raw complaint files are redistributed.
+
+The internal airport audit uses IATA/ICAO List data available from
+https://github.com/ip2location/ip2location-iata-icao under CC BY-SA 4.0.
+No lookup rows or geographic coordinates are redistributed.
+IATA and ICAO are trademarks of their respective owners; no endorsement implied.

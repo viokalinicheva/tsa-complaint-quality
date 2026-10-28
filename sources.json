@@ -1,0 +1,33 @@
+{
+  "verified_date": "2026-10-28",
+  "source_revision": "e9f8b5e89b4774eb97b93165ee96b4bc986d4319",
+  "rights": "Data Liberation Project standardized counts and IP2Location lookup: CC BY-SA 4.0. Raw inputs are not redistributed. Derived complaint aggregates and figures: CC BY-SA 4.0; code: MIT.",
+  "scope": "Historical January 2015\u2013January 2024 snapshot, not the current expanded upstream files.",
+  "files": [
+    {
+      "file": "complaints-by-airport.csv",
+      "role": "airport",
+      "sha256": "5ac8308d8be06a8e8f102332918cced79fd23aeba492d3058ddc8819400b2d19",
+      "url": "https://raw.githubusercontent.com/data-liberation-project/tsa-complaint-counts/e9f8b5e89b4774eb97b93165ee96b4bc986d4319/output/03-standardized/complaints-by-airport.csv"
+    },
+    {
+      "file": "complaints-by-category.csv",
+      "role": "category",
+      "sha256": "febc8f3208709c643e95c6bab1d13eef9b5c98bc5128b9659f57636416257419",
+      "url": "https://raw.githubusercontent.com/data-liberation-project/tsa-complaint-counts/e9f8b5e89b4774eb97b93165ee96b4bc986d4319/output/03-standardized/complaints-by-category.csv"
+    },
+    {
+      "file": "complaints-by-subcategory.csv",
+      "role": "subcategory",
+      "sha256": "7fa828cbbc60ad63a3a0717421d8e24c2492293b27a34ef89a3af508d9219124",
+      "url": "https://raw.githubusercontent.com/data-liberation-project/tsa-complaint-counts/e9f8b5e89b4774eb97b93165ee96b4bc986d4319/output/03-standardized/complaints-by-subcategory.csv"
+    },
+    {
+      "file": "iata-icao.csv",
+      "role": "lookup",
+      "sha256": "4707f3bfa58d70cd7c0a94cbaeeedfd355e1e81334751ad32b5b2d24d6eada0d",
+      "url": "https://api.github.com/repos/ip2location/ip2location-iata-icao/git/blobs/4aff3e2adaf99fefba716966568455940d2b6a95",
+      "encoding": "github-base64"
+    }
+  ]
+}

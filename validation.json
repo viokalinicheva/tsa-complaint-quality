@@ -1,0 +1,137 @@
+{
+  "validated_date": "2026-10-28",
+  "python": "3.12.14",
+  "execution": "Fresh Jupyter kernel from raw sources; no cache-only execution",
+  "code_cells_executed": 7,
+  "saved_errors": 0,
+  "source_manifest_sha256": "daaeb4eb54cefe4af1f981074593a35afb9785619be456a601e890eb5591b406",
+  "analysis_sha256": "30f611ed401c1f58285ab869f084ce3f561cb90a70ad5af946ffd715cd9f1393",
+  "notebook_sha256": "cacddfc030491b35c3f7e3a6163800c2844fdf85397ed1c88dcf956d05f5b6f4",
+  "results": {
+    "complaints": 1021281,
+    "airport_months_reconciled": 41721,
+    "first_month": "2015-01-01",
+    "last_month": "2024-01-01",
+    "months": 109,
+    "unassigned_complaints": 437786,
+    "unassigned_pct": 42.86636097215164,
+    "imputed_or_ambiguous_subcategory_complaints": 484349,
+    "imputed_or_ambiguous_subcategory_pct": 47.42563506028213,
+    "subcategory_duplicate_rows_retained": 1405,
+    "complaints_lost_if_deduplicated": 978,
+    "unmatched_airport_codes": 5,
+    "unmatched_airport_complaints": 289,
+    "inventory": [
+      {
+        "file": "complaints-by-airport.csv",
+        "rows": 41721,
+        "columns": 4,
+        "duplicate_rows": 0,
+        "missing_cells": 109,
+        "sha256": "5ac8308d8be06a8e8f102332918cced79fd23aeba492d3058ddc8819400b2d19"
+      },
+      {
+        "file": "complaints-by-category.csv",
+        "rows": 241588,
+        "columns": 7,
+        "duplicate_rows": 0,
+        "missing_cells": 4042,
+        "sha256": "febc8f3208709c643e95c6bab1d13eef9b5c98bc5128b9659f57636416257419"
+      },
+      {
+        "file": "complaints-by-subcategory.csv",
+        "rows": 504512,
+        "columns": 11,
+        "duplicate_rows": 1405,
+        "missing_cells": 13464,
+        "sha256": "7fa828cbbc60ad63a3a0717421d8e24c2492293b27a34ef89a3af508d9219124"
+      },
+      {
+        "file": "iata-icao.csv",
+        "rows": 8937,
+        "columns": 7,
+        "duplicate_rows": 0,
+        "missing_cells": 1175,
+        "sha256": "4707f3bfa58d70cd7c0a94cbaeeedfd355e1e81334751ad32b5b2d24d6eada0d"
+      }
+    ],
+    "annual_complaints": {
+      "2015": 93481,
+      "2016": 116714,
+      "2017": 106552,
+      "2018": 115342,
+      "2019": 112610,
+      "2020": 45326,
+      "2021": 81033,
+      "2022": 165876,
+      "2023": 172729,
+      "2024": 11618
+    },
+    "lowest_month": {
+      "month": "2020-04",
+      "complaints": 781
+    },
+    "highest_month": {
+      "month": "2022-03",
+      "complaints": 16181
+    },
+    "leading_category": {
+      "category": "Expedited Passenger Screening Program",
+      "complaints": 569943,
+      "pct": 55.80667808370077
+    },
+    "annual_median_unassigned_pct": {
+      "2015": 51.957333190553356,
+      "2016": 50.7984367665334,
+      "2017": 50.041233371850936,
+      "2018": 53.4733035159081,
+      "2019": 56.6682421637133,
+      "2020": 52.44405784674241,
+      "2021": 38.6201144162158,
+      "2022": 27.48177391949676,
+      "2023": 24.934517703396587
+    },
+    "raw_sources_unchanged": true
+  },
+  "source_acquisition_test": {
+    "verified_date": "2026-10-28",
+    "all_source_urls_downloaded_and_hash_matched": true,
+    "files_verified": 4
+  },
+  "original_notebook_preserved_sha256": "081d920ef455272f6bc2ea262b69ada3c586045c293fc7f1412dc7756450c039",
+  "visual_qa": {
+    "figures_checked": 5,
+    "status": "Labels, scales, caveats, and privacy checked visually; no clipping observed."
+  },
+  "release_gates": {
+    "notebook_schema_valid": true,
+    "execution_counts_sequential": true,
+    "embedded_figures": 5,
+    "local_readme_links_exist": true,
+    "raw_inputs_excluded": true,
+    "local_absolute_paths_absent": true,
+    "dependency_environment_pip_check": "No broken requirements found",
+    "dependency_resolution_dry_run": "Exact shared requirements resolved and all wheels downloaded successfully without installing"
+  },
+  "environment_notes": [
+    "The managed host emitted a psutil process-enumeration permission warning during kernel shutdown after successful execution. No saved code-cell errors occurred."
+  ],
+  "release_file_hashes": {
+    ".gitignore": "7c6b6c198050d9144412a8e31b69db6f7ec15b50ba2c56f7b13e31cc8562cd21",
+    "LICENSE": "8186735fc539a5b6548ac4f49723370bdb856c57614ab32c6eadaba8927df49b",
+    "README.md": "3b9d160fecfd341437a123c5d579a0c3735b3017f153a4206a300f3927d4c675",
+    "analysis.py": "30f611ed401c1f58285ab869f084ce3f561cb90a70ad5af946ffd715cd9f1393",
+    "outputs/01_monthly_complaints.png": "3c155fd371f5b0ebae2c23b56c3a0ca1153920e47d24211f71ee531978d12ecc",
+    "outputs/02_category_composition.png": "234bfae1cc974c3c1b0105bd0eecf63d9d5361ea8a8aaba17d79363eaa0e78a6",
+    "outputs/03_subcategory_reliability.png": "a744a708a9b5d5c2f060cae4aca0ebd2207704ee4a8de712825f23e7453d8610",
+    "outputs/04_airport_complaint_profiles.png": "94bd1aebe7b9077d1f460fc3b0a824d4cc9d9f6e15bfe5c2826870964fa04901",
+    "outputs/05_airport_attribution.png": "c23f355940cfff6a6aefa2a2b4fe06074240da584fb87e4a29b677fb91cfb290",
+    "outputs/airport_share_deviation_pp.csv": "8dc980e289fb6b6e7c1dcbda6aa1523db1f91212db04ec8d19084925d3f836bc",
+    "outputs/category_totals.csv": "5c1e564cc7b1de3d34e5a34f9762b53c09287c8a62e5c76c346c2dcf43ab747c",
+    "outputs/metrics.json": "cafd7520e80d28d53d19b46705aa77a343e8f090d3a98d0221d9d25ac6a30de9",
+    "outputs/monthly_complaints.csv": "26b20b636719e17098aea8829a87d85e256aa8f1aeface928cf23225d1d84ca9",
+    "requirements.txt": "3331c7a74772a72ffdb03582449685a91bdedce129e8832b70920e0616863fd4",
+    "sources.json": "daaeb4eb54cefe4af1f981074593a35afb9785619be456a601e890eb5591b406",
+    "tsa_complaint_quality.ipynb": "cacddfc030491b35c3f7e3a6163800c2844fdf85397ed1c88dcf956d05f5b6f4"
+  }
+}
