@@ -6,7 +6,7 @@ How can service leaders act on complaints without confusing reporting gaps with 
 
 - **1,021,281 recorded complaints**, January 2015–January 2024; 109 continuous months. January 2024 is partial, not a full comparison year.
 - All **41,721 airport-month totals** reconcile exactly across airport, category, and subcategory files.
-- **437,786 complaints (42.9%)** have no airport attribution. Missing airport can legitimately mean a program-wide issue.
+- **437,786 complaints (42.9%)** have no airport attribution. A missing airport attribution can legitimately indicate a program-wide issue.
 - **484,349 complaints (47.4%)** have imputed or ambiguous upstream subcategory labels.
 - The Expedited Passenger Screening Program represents **569,943 complaints (55.8%)**; growth is not uniform across categories.
 - Removing 1,405 repeated-looking subcategory rows would lose 978 complaints. They are retained because they reconcile with the higher-grain evidence.
